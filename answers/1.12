@@ -1,0 +1,1 @@
+docker run --name mlops-front -p 8002:80 -d --network mlops-network -e ws_back_url=http://mlops-back:5000 mlops-front
