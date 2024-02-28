@@ -1,7 +1,5 @@
 FROM python:3.12.2-alpine3.18
 
-ENV CURRENT_ENVIRONMENT=development
-
 COPY ./ /app
 WORKDIR /app
 
